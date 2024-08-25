@@ -1,0 +1,1 @@
+A place for eslint, prettier, typescript and other tooling.

@@ -1,0 +1,12 @@
+{
+  "name": "@acme/example-old",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

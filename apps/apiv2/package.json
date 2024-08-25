@@ -1,0 +1,15 @@
+{
+  "name": "@acme/apiv2",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@acme/example-new": "workspace:*",
+    "@acme/example-old": "workspace:*",
+    "@acme/example-ts": "workspace:*",
+    "fastify": "^4.28.1"
+  }
+}
