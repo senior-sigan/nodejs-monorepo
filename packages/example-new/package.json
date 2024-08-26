@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist",
+    "src",
+    "package.json"
+  ],
   "scripts": {
     "lint": "eslint .",
     "build": "rollup --config"
   },
   "dependencies": {
-    "dayjs": "^1.11.13"
+    "date-fns": "^3.6.0"
   },
   "devDependencies": {
     "rollup": "^4.21.0"
@@ -16,15 +23,10 @@
   "exports": {
     ".": {
       "require": {
-        "default": "./dist/bundle.cjs"
+        "default": "./dist/cjs/index.js"
       },
       "import": {
-        "default": "./src/index.js"
-      }
-    },
-    "./printer": {
-      "import": {
-        "default": "./src/printer.js"
+        "default": "./dist/esm/index.js"
       }
     }
   }
