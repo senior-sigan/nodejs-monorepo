@@ -1,6 +1,6 @@
-const _ = require('lodash')
+const _ = require('lodash');
 
-function makeCoffee () {
+function makeCoffee() {
   const arr = [1, 2, 3];
   return _.fill(arr, 'coffee');
 }

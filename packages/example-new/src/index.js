@@ -1,6 +1,6 @@
-import { formatDistance } from "date-fns";
-import { ru } from "date-fns/locale";
-import { printer } from "./printer";
+import { formatDistance } from 'date-fns';
+import { ru } from 'date-fns/locale';
+import { printer } from './printer';
 
 export function printDates() {
   const date = formatDistance(

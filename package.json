@@ -8,9 +8,13 @@
     "pnpm": ">=9"
   },
   "scripts": {
-    "postinstall": "manypkg check"
+    "postinstall": "manypkg check",
+    "lint": "eslint ."
   },
   "dependencies": {
-    "@manypkg/cli": "^0.21.4"
+    "@acme/eslint-config": "workspace:*",
+    "@manypkg/cli": "^0.21.4",
+    "eslint": "^9.9.1",
+    "prettier": "3.3.3"
   }
 }

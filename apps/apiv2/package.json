@@ -7,6 +7,7 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "@acme/eslint-config": "workspace:*",
     "@acme/example-new": "workspace:*",
     "@acme/example-old": "workspace:*",
     "@acme/example-ts": "workspace:*",

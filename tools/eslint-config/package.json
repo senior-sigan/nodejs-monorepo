@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "devDependencies": {
-    "@eslint/js": "^9.9.1",
-    "eslint": "^9.9.1"
-  },
   "dependencies": {
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-n": "^17.10.2"
+    "@eslint/js": "^9.9.1",
+    "@stylistic/eslint-plugin": "^2.6.4",
+    "eslint": "^9.9.1",
+    "eslint-plugin-n": "^17.10.2",
+    "eslint-plugin-prettier": "^5.2.1"
+  },
+  "exports": {
+    ".": "./eslint.config.mjs"
   }
 }
